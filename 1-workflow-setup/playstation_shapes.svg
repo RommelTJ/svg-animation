@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="640">
+  <defs>
+    <path d="M34.71 26.25h570.58v591.18H34.71V26.25z" id="a"/>
+    <path d="M92.65 87.87h200v200h-200v-200z" id="b"/>
+    <path d="M555.29 187.87c0 55.19-44.8 100-100 100-55.19 0-100-44.81-100-100s44.81-100 100-100c55.2 0 100 44.81 100 100z" id="c"/>
+    <path d="M242.65 436.54l50 100h-200l49.99-100 50.01-100 50 100z" id="d"/>
+    <path d="M555.29 536.54l-200-182.35" id="e"/>
+    <path d="M349.72 536.54l211.15-182.35" id="f"/>
+  </defs>
+  <use xlink:href="#a" fill="#fff" fill-opacity="0"/>
+  <use xlink:href="#a" fill-opacity="0" stroke="#020202"/>
+  <use xlink:href="#b" fill="#1d488f"/>
+  <use xlink:href="#b" fill-opacity="0" stroke="#1d488f"/>
+  <use xlink:href="#c" fill="#1d488f"/>
+  <use xlink:href="#c" fill-opacity="0" stroke="#1d488f"/>
+  <g>
+    <use xlink:href="#d" fill="#1d488f"/>
+  </g>
+  <g>
+    <use xlink:href="#e" fill-opacity="0" stroke="#1d488f" stroke-width="5"/>
+  </g>
+  <g>
+    <use xlink:href="#f" fill-opacity="0" stroke="#1d488f" stroke-width="5"/>
+  </g>
+</svg>
