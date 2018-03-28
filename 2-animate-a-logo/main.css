@@ -6,3 +6,18 @@ svg {
   left: 0;
   margin: auto;
 }
+
+.square {
+  stroke-dasharray: 600;
+  stroke-dashoffset: -600;
+  animation: draw-square 2s infinite;
+}
+
+@keyframes draw-square {
+  from {
+    stroke-dashoffset: -650;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
