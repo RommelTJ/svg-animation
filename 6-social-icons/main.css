@@ -21,3 +21,19 @@ svg {
     opacity: 0;
   }
 }
+
+.youtube-outline, .youtube-icon, .youtube-inner-circle {
+  transition: 300ms all;
+  transform-origin: 250px 100.5px;
+}
+.youtube-icon-group:hover {
+  .youtube-outline {
+    transform: scale(1.2);
+  }
+  .youtube-inner-circle {
+    fill: #F26768;
+  }
+  .youtube-icon {
+    stroke: #FFFFFF;
+  }
+}
