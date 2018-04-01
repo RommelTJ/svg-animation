@@ -37,3 +37,21 @@ svg {
     stroke: #FFFFFF;
   }
 }
+
+.facebook-detail, .facebook-outline {
+  transition: 300ms all;
+  transform-origin: 389.4px 100.5px;
+}
+.facebook-detail {
+  opacity: 0;
+}
+.facebook-icon-group:hover {
+  .facebook-outline {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+  .facebook-detail {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+}
