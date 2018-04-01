@@ -6,3 +6,18 @@ svg {
   bottom: 0px;
   position: absolute;  
 }
+
+.twitter-outline, .twitter-icon {
+  transition: 300ms all;
+  transform-origin: 110.6px 100.5px;
+}
+.twitter-icon-group:hover {
+  .twitter-outline {
+    transform: scale(0);
+  }
+  .twitter-icon {
+    transform: scale(2);
+    stroke: #4099FF;
+    opacity: 0;
+  }
+}
