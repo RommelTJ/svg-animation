@@ -1,0 +1,57 @@
+svg {
+  margin: auto;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;  
+}
+
+.twitter-outline, .twitter-icon {
+  transition: 300ms all;
+  transform-origin: 110.6px 100.5px;
+}
+.twitter-icon-group:hover {
+  .twitter-outline {
+    transform: scale(0);
+  }
+  .twitter-icon {
+    transform: scale(2);
+    stroke: #4099FF;
+    opacity: 0;
+  }
+}
+
+.youtube-outline, .youtube-icon, .youtube-inner-circle {
+  transition: 300ms all;
+  transform-origin: 250px 100.5px;
+}
+.youtube-icon-group:hover {
+  .youtube-outline {
+    transform: scale(1.2);
+  }
+  .youtube-inner-circle {
+    fill: #F26768;
+  }
+  .youtube-icon {
+    stroke: #FFFFFF;
+  }
+}
+
+.facebook-detail, .facebook-outline {
+  transition: 300ms all;
+  transform-origin: 389.4px 100.5px;
+}
+.facebook-detail {
+  opacity: 0;
+}
+.facebook-icon-group:hover {
+  .facebook-outline {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+  .facebook-detail {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+}
