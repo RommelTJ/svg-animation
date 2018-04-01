@@ -1,3 +1,7 @@
+body {
+  background: #555;
+}
+
 svg {
   position: absolute;
   margin: auto;
@@ -5,4 +9,16 @@ svg {
   right: 0;
   bottom: 0;
   left: 0;
+  
+  animation: 3s move alternate infinite;
+  clip-path: circle(35px at 150px 50px );
+}
+
+@keyframes move {
+  from {
+    clip-path: circle(35px at 150px 50px );
+  }
+  to {
+    clip-path: circle(35px at 550px 50px );
+  }
 }
