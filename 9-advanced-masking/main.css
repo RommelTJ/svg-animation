@@ -16,7 +16,7 @@ svg {
 
 @keyframes move {
   from {
-    clip-path: circle(35px at 150px 50px );
+    clip-path: circle(35px at 100px 50px );
   }
   to {
     clip-path: circle(35px at 550px 50px );
